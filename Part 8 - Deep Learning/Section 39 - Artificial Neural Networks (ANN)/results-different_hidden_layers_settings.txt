@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Sep  7 14:31:30 2017
+
+@author: jwcunha
+"""
+
+2   6,6 
+array([[1511,   84],
+       [ 201,  204]])
+
+
+2   3,4
+[[1546,   49],
+       [ 270,  135]])
