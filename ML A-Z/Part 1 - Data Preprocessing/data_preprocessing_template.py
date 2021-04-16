@@ -15,14 +15,14 @@ y = dataset.iloc[:, 3].values
 #X = features y = dependent variable
 #test_size = the percentage of your dataset will be used to test
 #using 0.2 = 8 will be train_set  and 2 will be test_set
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, 
                                                     test_size = 0.2, 
                                                     random_state = 0)
 
 
  #Feature Scaling
-""" from sklearn.preprocessing import StandardScaler
- sc_X = StandardScaler()
- X_train = sc_X.fit_transform(X_train)
- X_test = sc_X.transform(X_test)""
+# from sklearn.preprocessing import StandardScaler
+#  sc_X = StandardScaler()
+#  X_train = sc_X.fit_transform(X_train)
+#  X_test = sc_X.transform(X_test)
